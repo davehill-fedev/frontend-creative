@@ -24,10 +24,14 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body
-        className={`${geistSans.variable} ${geistMono.variable} antialiased`}
-      >
-        {children}
+      <body className="grid min-h-screen grid-rows-[auto_1fr_auto]">
+        <header className="px-3 py-4">
+        <a href="/" className="text-2xl font-semibold text-center">Dave Hill</a>
+        </header>
+        <main>{children}</main>
+        <footer className="px-3 py-4 flex justify-center">
+          <p>Copyright &copy; {new Date().getFullYear()} Dave Hill.</p>
+        </footer>
       </body>
     </html>
   );

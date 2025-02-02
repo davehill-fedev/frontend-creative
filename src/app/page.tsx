@@ -2,100 +2,28 @@ import Image from "next/image";
 
 export default function Home() {
   return (
-    <div className="grid grid-rows-[20px_1fr_20px] items-center justify-items-center min-h-screen p-8 pb-20 gap-16 sm:p-20 font-[family-name:var(--font-geist-sans)]">
-      <main className="flex flex-col gap-8 row-start-2 items-center sm:items-start">
-        <Image
-          className="dark:invert"
-          src="/next.svg"
-          alt="Next.js logo"
-          width={180}
-          height={38}
-          priority
-        />
-        <ol className="list-inside list-decimal text-sm text-center sm:text-left font-[family-name:var(--font-geist-mono)]">
-          <li className="mb-2">
-            Get started by editing{" "}
-            <code className="bg-black/[.05] dark:bg-white/[.06] px-1 py-0.5 rounded font-semibold">
-              src/app/page.tsx
-            </code>
-            .
-          </li>
-          <li>Save and see your changes instantly.</li>
-        </ol>
-
-        <div className="flex gap-4 items-center flex-col sm:flex-row">
-          <a
-            className="rounded-full border border-solid border-transparent transition-colors flex items-center justify-center bg-foreground text-background gap-2 hover:bg-[#383838] dark:hover:bg-[#ccc] text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5"
-            href="https://vercel.com/new?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            <Image
-              className="dark:invert"
-              src="/vercel.svg"
-              alt="Vercel logomark"
-              width={20}
-              height={20}
-            />
-            Deploy now
-          </a>
-          <a
-            className="rounded-full border border-solid border-black/[.08] dark:border-white/[.145] transition-colors flex items-center justify-center hover:bg-[#f2f2f2] dark:hover:bg-[#1a1a1a] hover:border-transparent text-sm sm:text-base h-10 sm:h-12 px-4 sm:px-5 sm:min-w-44"
-            href="https://nextjs.org/docs?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-            target="_blank"
-            rel="noopener noreferrer"
-          >
-            Read our docs
-          </a>
-        </div>
-      </main>
-      <footer className="row-start-3 flex gap-6 flex-wrap items-center justify-center">
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org/learn?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/file.svg"
-            alt="File icon"
-            width={16}
-            height={16}
-          />
-          Learn
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://vercel.com/templates?framework=next.js&utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/window.svg"
-            alt="Window icon"
-            width={16}
-            height={16}
-          />
-          Examples
-        </a>
-        <a
-          className="flex items-center gap-2 hover:underline hover:underline-offset-4"
-          href="https://nextjs.org?utm_source=create-next-app&utm_medium=appdir-template-tw&utm_campaign=create-next-app"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          <Image
-            aria-hidden
-            src="/globe.svg"
-            alt="Globe icon"
-            width={16}
-            height={16}
-          />
-          Go to nextjs.org →
-        </a>
-      </footer>
-    </div>
+    <>
+      <section>
+        <Image src="/images/field-5065671_1280.jpg" alt="Lion" width={500} height={500} className="w-full max-h-[40rem]" />
+      </section>
+      <section className="w-2/3 mx-auto my-4">
+        <h1 className="text-4xl font-semibold">Frontend Creative</h1>
+        <p>An exploration of what it takes to be an effective frontend developer with a craetive flair and a desire to create strong user experiences.</p>
+      </section>
+      <section className="grid grid-cols-3 gap-4 m-8">
+        <article className=" p-8">
+          <h2 className="text-2xl font-semibold">Frameworks & Libraries</h2>
+          <p>Using ReactJS and TailwindCSS, along with similar tools, enables developers to achieve remarkable results in web development. ReactJS, a powerful JavaScript library, simplifies the process of building dynamic and interactive user interfaces with its component-based architecture. This approach not only promotes code reusability and maintainability but also enhances the overall development speed. TailwindCSS, a highly customizable utility-first CSS framework, allows developers to rapidly create aesthetically pleasing and responsive designs without writing extensive custom CSS. Its design system ensures consistency and efficiency, making it easier to adhere to design standards. Together, these tools empower developers to build modern, scalable, and visually appealing web applications while maintaining a high level of productivity and flexibility. The synergy between ReactJS and TailwindCSS exemplifies the balance between functionality and design, leading to superior user experiences.</p>
+        </article>
+        <article className=" p-8">
+          <h2 className="text-2xl font-semibold">Accessibility & UX</h2>
+          <p>The value of a frontend developer possessing an intimate understanding of accessibility and user experience cannot be overstated. Accessibility ensures that web applications are usable by people of all abilities, creating an inclusive digital environment where no one is left behind. When a developer is well-versed in accessibility, they can identify and eliminate barriers that might prevent individuals with disabilities from accessing content, fostering equal opportunities and compliance with legal standards. Meanwhile, a deep knowledge of user experience (UX) empowers developers to design interfaces that are not only functional but also intuitive and enjoyable. This dual expertise enables the creation of seamless, engaging experiences that resonate with users, boosting satisfaction and retention. Ultimately, a frontend developer skilled in both accessibility and UX delivers products that are more effective, empathetic, and aligned with the diverse needs of a global user base.</p>
+        </article>
+        <article className=" p-8">
+          <h2 className="text-2xl font-semibold">Duty & Passion</h2>
+          <p>Frontend development, a harmonious blend of duty and passion, demands both meticulous attention to detail and an intrinsic love for crafting engaging user experiences. The sense of duty in a frontend developer lies in the commitment to creating intuitive, accessible, and efficient interfaces that cater to diverse user needs. This responsibility entails rigorous testing, ongoing improvements, and adherence to best practices and standards. Passion, on the other hand, fuels the creativity and innovation required to push the boundaries of what’s possible in web design. It’s the driving force behind experimenting with new technologies, staying updated with the latest trends, and continuously learning to enhance one’s skills. When duty and passion intersect in frontend development, the result is not just functional applications but delightful digital experiences that resonate with users.</p>
+        </article>
+      </section>
+    </>
   );
 }
