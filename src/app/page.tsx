@@ -10,7 +10,7 @@ export default function Home() {
         <h1 className="text-4xl font-semibold">Frontend Creative</h1>
         <p>An exploration of what it takes to be an effective frontend developer with a craetive flair and a desire to create strong user experiences.</p>
       </section>
-      <section className="grid grid-cols-3 gap-4 m-8">
+      <section className="grid lg:grid-cols-3 md:grid-cols-2 gap-4 m-8">
         <article className=" p-8">
           <h2 className="text-2xl font-semibold">Frameworks & Libraries</h2>
           <p>Using ReactJS and TailwindCSS, along with similar tools, enables developers to achieve remarkable results in web development. ReactJS, a powerful JavaScript library, simplifies the process of building dynamic and interactive user interfaces with its component-based architecture. This approach not only promotes code reusability and maintainability but also enhances the overall development speed. TailwindCSS, a highly customizable utility-first CSS framework, allows developers to rapidly create aesthetically pleasing and responsive designs without writing extensive custom CSS. Its design system ensures consistency and efficiency, making it easier to adhere to design standards. Together, these tools empower developers to build modern, scalable, and visually appealing web applications while maintaining a high level of productivity and flexibility. The synergy between ReactJS and TailwindCSS exemplifies the balance between functionality and design, leading to superior user experiences.</p>
